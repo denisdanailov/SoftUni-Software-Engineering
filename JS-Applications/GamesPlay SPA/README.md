@@ -1,6 +1,5 @@
 <b>Exercise from the Js Applications course. Web application (SPA) using JavaScript.</b>
 
-To initialize the project, execute the command npm install via the command-line terminal.
 
 
 
