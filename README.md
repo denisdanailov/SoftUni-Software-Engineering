@@ -4,7 +4,6 @@
 
 
 ##  Certificates 
-
 -----
 
 | Course      | Link |
