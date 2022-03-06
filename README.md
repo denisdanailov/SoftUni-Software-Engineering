@@ -13,6 +13,7 @@
 | Java Advanced | [Link](https://softuni.bg/certificates/details/108481/65967970)|
 | Java OOP | [Link](https://softuni.bg/certificates/details/110648/7f4026e1)|
 | Js Applications | [Link](https://softuni.bg/certificates/details/121037/be7a7a1f)|
+| MySQL | [Link](https://softuni.bg/certificates/details/123292/94375ba7)|
 
 
 -----
