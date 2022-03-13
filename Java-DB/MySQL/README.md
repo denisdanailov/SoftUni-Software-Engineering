@@ -1,7 +1,7 @@
 ## Course Brief Description
 **The databases are a standard way of dynamically using information in modern applications. This course is covering the basics of one of the most used systems for managing databases (DBMS) when developing - MySQL. Relational databases and their core functionality are the main accent.**
 
-1. Databases Introduction. Data Definition and Datatypes
+### 1. Databases Introduction. Data Definition and Datatypes
  Data Management;
  Database Engine;
  Structured Query Language;
