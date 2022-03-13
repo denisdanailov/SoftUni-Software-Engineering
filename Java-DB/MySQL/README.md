@@ -14,32 +14,32 @@
  Table Customization;
  Altering Tables;
  Deleting Data and Structures.
-2. Basic CRUD
+### 2. Basic CRUD
  Query Basics;
  Retrieving Data;
  Writing Data in Tables;
  Modifying Existing Records.
-3. Built-in Functions
+### 3. Built-in Functions
  Functions in MySQL Server;
  String Functions;
  Arithmetical Operators and Numeric Functions;
  Date Functions;
  Wildcards.
-4. Data Aggregation
+### 4. Data Aggregation
  Grouping – consolidating data based on criteria;
  Aggregate Function – COUNT, SUM, MAX, MIN, AVG …
  Having – using predicates while grouping.
-5. Table Relations
+### 5. Table Relations
  Database design;
  Table Relation;
  Retrieving Related Data;
  Cascade Operations;
  E/R Diagrams.
-6. Subqueries and JOINs
+### 6. Subqueries and JOINs
  JOINS – Gathering Data From Multiple Tables;
  Subqueries – Query Manipulation on Multiple Levels;
  Indices – Clustered and Non-Clustered Indices.
-7. Database Programmability and Transactions
+### 7. Database Programmability and Transactions
  User-Defined Functions;
  Stored Procedures;
  Transactions;
