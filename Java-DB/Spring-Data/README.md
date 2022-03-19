@@ -1,7 +1,7 @@
 ### Course Brief Description
 This course is a great way for understanding the connection between the different layers in an application. It is main focus is on Spring Data but also gives a good overview on different ORM technologies.
 
-. Database Access with JDBC
+1. Database Access with JDBC
  Accessing Data Via Client Application;
  Client Access to a Database (Java Database Connectivity (JDBC));
  JDBC Statements (Statement, PreparedStatement, CallableStatement);
