@@ -1,12 +1,12 @@
 ### Course Brief Description
 This course is a great way for understanding the connection between the different layers in an application. It is main focus is on Spring Data but also gives a good overview on different ORM technologies.
 
-1. Database Access with JDBC
- Accessing Data Via Client Application;
- Client Access to a Database (Java Database Connectivity (JDBC));
- JDBC Statements (Statement, PreparedStatement, CallableStatement);
- SQL Injection (How to Prevent It?);
- Advanced Concepts (Transactions and DAO Pattern).
+### 1. Database Access with JDBC
+- [x] Accessing Data Via Client Application;
+- [x] Client Access to a Database (Java Database Connectivity (JDBC));
+- [x] JDBC Statements (Statement, PreparedStatement, CallableStatement);
+- [x] SQL Injection (How to Prevent It?);
+- [x] Advanced Concepts (Transactions and DAO Pattern).
 2. ORM Fundamentals
  Introduction to ORM
  What is ORM?
