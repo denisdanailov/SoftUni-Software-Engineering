@@ -7,12 +7,12 @@ This course is a great way for understanding the connection between the differen
 - [x] JDBC Statements (Statement, PreparedStatement, CallableStatement);
 - [x] SQL Injection (How to Prevent It?);
 - [x] Advanced Concepts (Transactions and DAO Pattern).
-2. ORM Fundamentals
- Introduction to ORM
- What is ORM?
- Why do we need ORM?
- JDBC and ORM;
- ORM Advantages and disadvantages;
+### 2. ORM Fundamentals
+- [x] Introduction to ORM
+- [x] What is ORM?
+- [x] Why do we need ORM?
+- [x] JDBC and ORM;
+- [x] ORM Advantages and disadvantages;
 3. Introduction to Hibernate
  Maven - Project Management and Comprehension;
  Hibernate Framework - Mapping Java Classes to Database Tables;
