@@ -13,10 +13,10 @@ This course is a great way for understanding the connection between the differen
 - [x] Why do we need ORM?
 - [x] JDBC and ORM;
 - [x] ORM Advantages and disadvantages;
-3. Introduction to Hibernate
- Maven - Project Management and Comprehension;
- Hibernate Framework - Mapping Java Classes to Database Tables;
- Java Persistence API - ORM Fundamentals.
+### 3. Introduction to Hibernate
+- [x] Maven - Project Management and Comprehension;
+- [x] Hibernate Framework - Mapping Java Classes to Database Tables;
+- [x] Java Persistence API - ORM Fundamentals.
 4. Hibernate Code First
  Java Persistence API Inheritance (Fundamental Inheritance Concepts).
  Table Per Class Strategy;
