@@ -25,14 +25,14 @@ This course is a great way for understanding the connection between the differen
 - [x] Table Relations (One-to-One, One-to-Many, Many-to-Many);
 - [x] Fetching Strategies (Eager and Lazy);
 - [x] Cascading.
-5. Intro to Spring Framework
- Framework;
- Web Frameworks;
- Design Patterns (Model–View–Controller);
- Spring Platform;
- Spring Data;
- Spring Boot;
- Spring Framework.
+### 5. Intro to Spring Framework
+- [x] Framework;
+- [x] Web Frameworks;
+- [x] Design Patterns (Model–View–Controller);
+- [x] Spring Platform;
+- [x] Spring Data;
+- [x] Spring Boot;
+- [x] Spring Framework.
 6. Spring Data Intro
  Spring Data Framework;
  Spring Data Repositories;
