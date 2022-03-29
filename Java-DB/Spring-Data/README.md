@@ -17,22 +17,22 @@ This course is a great way for understanding the connection between the differen
 - [x] Maven - Project Management and Comprehension;
 - [x] Hibernate Framework - Mapping Java Classes to Database Tables;
 - [x] Java Persistence API - ORM Fundamentals.
-4. Hibernate Code First
- Java Persistence API Inheritance (Fundamental Inheritance Concepts).
- Table Per Class Strategy;
- Table Per Class: Joined;
- Table Per Class: Single Table;
- Table Relations (One-to-One, One-to-Many, Many-to-Many);
- Fetching Strategies (Eager and Lazy);
- Cascading.
-5. Intro to Spring Framework
- Framework;
- Web Frameworks;
- Design Patterns (Model–View–Controller);
- Spring Platform;
- Spring Data;
- Spring Boot;
- Spring Framework.
+### 4. Hibernate Code First
+- [x] Java Persistence API Inheritance (Fundamental Inheritance Concepts).
+- [x] Table Per Class Strategy;
+- [x] Table Per Class: Joined;
+- [x] Table Per Class: Single Table;
+- [x] Table Relations (One-to-One, One-to-Many, Many-to-Many);
+- [x] Fetching Strategies (Eager and Lazy);
+- [x] Cascading.
+### 5. Intro to Spring Framework
+- [x] Framework;
+- [x] Web Frameworks;
+- [x] Design Patterns (Model–View–Controller);
+- [x] Spring Platform;
+- [x] Spring Data;
+- [x] Spring Boot;
+- [x] Spring Framework.
 6. Spring Data Intro
  Spring Data Framework;
  Spring Data Repositories;
