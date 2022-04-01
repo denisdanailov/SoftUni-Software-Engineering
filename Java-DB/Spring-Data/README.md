@@ -34,10 +34,10 @@ This course is a great way for understanding the connection between the differen
 - [x] Spring Boot;
 - [x] Spring Framework.
 ### 6. Spring Data Intro
- Spring Data Framework;
- Spring Data Repositories;
- Spring Data Query Creation;
- Spring Data Services.
+- [x] Spring Data Framework;
+- [x] Spring Data Repositories;
+- [x] Spring Data Query Creation;
+- [x] Spring Data Services.
 7. Spring Data Advanced Querying
  Retrieving Data by Custom Queries;
  Java Persistence Query Language;
