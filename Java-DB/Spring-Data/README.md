@@ -38,17 +38,17 @@ This course is a great way for understanding the connection between the differen
 - [x] Spring Data Repositories;
 - [x] Spring Data Query Creation;
 - [x] Spring Data Services.
-7. Spring Data Advanced Querying
- Retrieving Data by Custom Queries;
- Java Persistence Query Language;
- Repository Inheritance;
- Spring Custom Configuration.
-8. Spring Data Auto-Mapping
- Data Transfer Objects (Transmitting Aggregated Data from Entities);
- Model Mapping (Converting Entity Objects to DTOs).
-9. JSON Processing
- JSON - Transmitting Data Objects Via Attribute-value Pairs ;
- GSON - Serialize and De-serialize objects with Java .
-10. XML Processing
- XML Processing - Exporting and Importing Data from XML Format ;
- JAXB - Parsing XML to Java Objects.
+### 7. Spring Data Advanced Querying
+- [x] Retrieving Data by Custom Queries;
+- [x] Java Persistence Query Language;
+- [x] Repository Inheritance;
+- [x] Spring Custom Configuration.
+### 8. Spring Data Auto-Mapping
+- [x] Data Transfer Objects (Transmitting Aggregated Data from Entities);
+- [x] Model Mapping (Converting Entity Objects to DTOs).
+### 9. JSON Processing
+- [x] JSON - Transmitting Data Objects Via Attribute-value Pairs ;
+- [x] GSON - Serialize and De-serialize objects with Java .
+### 10. XML Processing
+- [x] XML Processing - Exporting and Importing Data from XML Format ;
+- [x] JAXB - Parsing XML to Java Objects.
