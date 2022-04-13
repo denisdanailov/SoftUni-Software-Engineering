@@ -20,7 +20,14 @@ public class ArrayDeque<E> implements Deque<E> {
     }
 
     @Override
-    public void add(E Element) {
+    public void add(E element) {
+
+        if (size == 0) {
+            this.elements[this.tail] = element;
+        } else {
+
+        }
+        this.size++;
 
     }
 
