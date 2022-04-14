@@ -22,23 +22,57 @@ public class ArrayDeque<E> implements Deque<E> {
     @Override
     public void add(E element) {
 
-        if (size == 0) {
+        if (this.size == 0) {
             this.elements[this.tail] = element;
         } else {
-
+            if (this.tail == this.elements.length - 1) {
+                this.elements = grow();
+            }
+            this.elements[++this.tail] = element;
         }
         this.size++;
 
     }
 
-    @Override
-    public void offer(E element) {
+    private Object[] grow() {
+        int newCapacity = this.elements.length * 2 + 1;
+
+        Object[] newElements = new Object[newCapacity];
+
+        int middle = newCapacity / 2;
+
+        int begin = middle - this.size / 2;
+
+        int index = this.head;
+
+        for (int i = begin; index <= this.tail; i++) {
+            newElements[i] = this.elements[index++];
+
+        }
+
+        this.head = begin;
+        this.tail = this.head + this.size - 1;
+        return newElements;
 
     }
 
     @Override
-    public void addFirst(E element) {
+    public void offer(E element) {
+        add(element);
+    }
 
+    @Override
+    public void addFirst(E element) {
+        if (size == 0) {
+            add(element);
+        } else {
+            this.elements[--this.head] = element;
+        }
+
+
+
+
+        this.size++;
     }
 
     @Override
