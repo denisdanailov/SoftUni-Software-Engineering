@@ -11,6 +11,6 @@ public class BalancedParentheses implements Solvable {
 
     @Override
     public Boolean solve() {
-        return null;
+        return false;
     }
 }

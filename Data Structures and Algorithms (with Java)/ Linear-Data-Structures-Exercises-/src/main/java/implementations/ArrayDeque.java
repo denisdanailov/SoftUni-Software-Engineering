@@ -85,12 +85,18 @@ public class ArrayDeque<E> implements Deque<E> {
 
     @Override
     public void insert(int index, E element) {
+        int realIndex = this.head + index;
+        this.ensureIndex(index);
+
+        
 
     }
 
     @Override
     public void set(int index, E element) {
-
+        int realIndex = this.head + index;
+        ensureIndex(index);
+        this.elements[realIndex] = element;
     }
 
     @Override
@@ -103,7 +109,7 @@ public class ArrayDeque<E> implements Deque<E> {
 
     @SuppressWarnings("unchecked")
     private E getAt(int index) {
-        return (E) this.elements[this.head];
+        return (E) this.elements[index];
     }
 
     @Override
@@ -113,23 +119,39 @@ public class ArrayDeque<E> implements Deque<E> {
 
     @Override
     public E pop() {
-        return null;
+        return removeFirst();
     }
 
     @Override
     public E get(int index) {
-
-        return null;
+        int realIndex = this.head + index;
+        ensureIndex(realIndex);
+        return this.getAt(realIndex);
     }
 
     @Override
     public E get(Object object) {
+
+        for (int i = this.head; i <= this.tail ; i++) {
+            if (this.elements[i].equals(object)) {
+                return getAt(i);
+            }
+        }
         return null;
     }
 
     @Override
     public E remove(int index) {
-        return null;
+        int realIndex = this.head + index;
+        ensureIndex(realIndex);
+
+        return this.getAt(realIndex);
+    }
+
+    private void ensureIndex(int index) {
+        if (index < this.head || index > this.tail) {
+            throw new IndexOutOfBoundsException("Index out of bound for index: " + (index - this.head));
+        }
     }
 
     @Override
@@ -177,7 +199,14 @@ public class ArrayDeque<E> implements Deque<E> {
 
     @Override
     public void trimToSize() {
+        Object[] newElements = new Object[this.size];
 
+        int index = 0;
+
+        for (int i = this.head; i <= this.tail ; i++) {
+            newElements[index++] = elements[i];
+        }
+        this.elements = newElements;
     }
 
     @Override
@@ -191,7 +220,7 @@ public class ArrayDeque<E> implements Deque<E> {
             private int index = head;
             @Override
             public boolean hasNext() {
-                return index != head;
+                return index <= head;
             }
 
             @Override
