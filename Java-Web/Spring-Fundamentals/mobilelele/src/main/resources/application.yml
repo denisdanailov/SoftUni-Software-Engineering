@@ -11,9 +11,8 @@ spring:
     # Choose either MySQL 8 or MySQL 5 below
     # For MySQL 8
     database-platform: org.hibernate.dialect.MySQL8Dialect
-
     #For MySQL 5
-    #database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+#    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
     hibernate:
       ddl-auto: update
     open-in-view: false
@@ -38,6 +37,6 @@ management:
         include: ["*"]
       base-path: "/admin"
   server:
-    port: 8081
+    port: 8080
 
 
