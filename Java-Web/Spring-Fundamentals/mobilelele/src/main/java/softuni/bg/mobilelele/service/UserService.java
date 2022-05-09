@@ -1,7 +1,9 @@
 package softuni.bg.mobilelele.service;
 
+import org.springframework.stereotype.Service;
 import softuni.bg.mobilelele.model.service.UserLoginServiceModel;
 import softuni.bg.mobilelele.model.service.UserRegistrationServiceModel;
+
 
 public interface UserService {
 

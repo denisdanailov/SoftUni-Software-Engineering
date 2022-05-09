@@ -1,9 +1,11 @@
 package softuni.bg.mobilelele.service.impl;
 
+import org.springframework.stereotype.Service;
 import softuni.bg.mobilelele.model.service.UserLoginServiceModel;
 import softuni.bg.mobilelele.model.service.UserRegistrationServiceModel;
 import softuni.bg.mobilelele.service.UserService;
 
+@Service
 public class UserServiceImpl implements UserService {
     @Override
     public void initializeUsersAndRoles() {

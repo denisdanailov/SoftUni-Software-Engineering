@@ -20,6 +20,7 @@ public class ModelEntity extends BaseEntity {
 
     @Column(nullable = false)
     private Integer startYear;
+
     private Integer endYear;
 
     @ManyToOne
@@ -76,4 +77,6 @@ public class ModelEntity extends BaseEntity {
         this.brand = brand;
         return this;
     }
+
+
 }
