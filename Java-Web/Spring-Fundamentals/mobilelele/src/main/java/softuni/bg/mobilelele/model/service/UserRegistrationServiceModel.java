@@ -1,12 +1,21 @@
 package softuni.bg.mobilelele.model.service;
 
+import javax.validation.constraints.Size;
+
 public class UserRegistrationServiceModel {
 
+    @Size(min = 3, max = 10)
     private String firstName;
 
+    @Size(min = 3, max = 10)
     private String lastName;
 
     private String password;
+
+    private String confirmPassword;
+
+    @Size(min = 3, max = 10)
+    private String username;
 
     public String getFirstName() {
         return firstName;
@@ -32,6 +41,24 @@ public class UserRegistrationServiceModel {
 
     public UserRegistrationServiceModel setPassword(String password) {
         this.password = password;
+        return this;
+    }
+
+    public String getConfirmPassword() {
+        return confirmPassword;
+    }
+
+    public UserRegistrationServiceModel setConfirmPassword(String confirmPassword) {
+        this.confirmPassword = confirmPassword;
+        return this;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public UserRegistrationServiceModel setUsername(String username) {
+        this.username = username;
         return this;
     }
 }

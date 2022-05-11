@@ -69,7 +69,7 @@
     <h2 class="text-center text-white">Register User</h2>
     <form   th:action="@{/users/register}"
             th:method="POST"
-            th:object="${userRegistrationBindingModel}"
+            th:object="${userModel}"
 
           class="main-form mx-auto col-md-8 d-flex flex-column justify-content-center">
         <div class="row">
@@ -83,9 +83,9 @@
             </div>
             <div class="form-group col-md-6 mb-3">
                 <label for="lastName" class="text-white font-weight-bold">Last Name</label>
-                <input id="lastName" type="text" min="2" max="20" class="form-control"
-                       placeholder="First name"/>
-                <p class="errors alert alert-danger">
+                <input th:field="*{lastName}" th:errorclass="is-invalid" id="lastName" type="text" min="2" max="20" class="form-control"
+                       placeholder="Last name"/>
+                <p class="invalid-feedback errors alert alert-danger">
                     Last name is required.
                 </p>
             </div>
@@ -93,26 +93,34 @@
         <div class="row">
             <div class="form-group col-md-6 mb-3">
                 <label for="username" class="text-white font-weight-bold">Username</label>
-                <input id="username" type="text" min="2" max="20" class="form-control"
-                       placeholder="First name"/>
-                <p class="errors alert alert-danger">
+                <input th:field="*{username}" th:errorclass="is-invalid" id="username" type="text" min="2" max="20" class="form-control"
+                       placeholder="Username"/>
+                <p class="invalid-feedback errors alert alert-danger">
                     Username is required.
                 </p>
             </div>
             <div class="form-group col-md-6 mb-3">
                 <label for="password" class="text-white font-weight-bold">Password</label>
-                <input id="password" type="password" min="2" max="20" class="form-control"
+                <input th:field="*{password}" th:errorclass="is-invalid" id="password" type="password" min="2" max="20" class="form-control"
                        placeholder="Password"/>
-                <p class="errors alert alert-danger">
+                <p class="invalid-feedback errors alert alert-danger">
                     Password is required.
                 </p>
             </div>
+        <div class="form-group col-md-6 mb-3">
+            <label for="password" class="text-white font-weight-bold">Confirm Password</label>
+            <input th:field="*{confirmPassword}" th:errorclass="is-invalid" id="confirm-password" type="password" min="2" max="20" class="form-control"
+                   placeholder="Confirm Password"/>
+            <p class="invalid-feedback errors alert alert-danger">
+                Password is required.
+            </p>
         </div>
+</div>
 
         <div class="row">
             <div class="col col-md-4">
                 <div class="button-holder d-flex">
-                    <input type="submit" class="btn btn-info btn-lg" value="Submit Offer"/>
+                    <input type="submit" class="btn btn-info btn-lg" value="Register now"/>
                 </div>
             </div>
         </div>

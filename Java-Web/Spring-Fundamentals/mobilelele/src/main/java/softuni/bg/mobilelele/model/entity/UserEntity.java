@@ -4,21 +4,27 @@ import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
+import javax.validation.constraints.Size;
 
 @Entity
 @Table(name = "users")
 public class UserEntity extends BaseEntity {
 
-    @Column(nullable = false, unique = true)
+    @Column( unique = true)
+    @Size(min = 3, max = 10)
     private String username;
 
-    @Column(nullable = false)
+    @Size(min = 3)
     private String password;
+
+    @Size(min = 3)
+    private String confirmPassword;
 
     @Column(name = "first_name")
     private String firstName;
 
     @Column(name = "last_name")
+    @Size(min = 3, max = 10)
     private String lastName;
 
     @Column(name = "is_active")
@@ -45,6 +51,15 @@ public class UserEntity extends BaseEntity {
 
     public UserEntity setPassword(String password) {
         this.password = password;
+        return this;
+    }
+
+    public String getConfirmPassword() {
+        return confirmPassword;
+    }
+
+    public UserEntity setConfirmPassword(String confirmPassword) {
+        this.confirmPassword = confirmPassword;
         return this;
     }
 

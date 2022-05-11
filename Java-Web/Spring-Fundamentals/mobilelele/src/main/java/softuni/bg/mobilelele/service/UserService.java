@@ -1,17 +1,18 @@
 package softuni.bg.mobilelele.service;
 
-import org.springframework.stereotype.Service;
 import softuni.bg.mobilelele.model.service.UserLoginServiceModel;
 import softuni.bg.mobilelele.model.service.UserRegistrationServiceModel;
 
 
 public interface UserService {
 
-    void initializeUsersAndRoles();
+    void initializeUsers();
 
-    boolean login(UserLoginServiceModel userLoginServiceModel);
+    void login(Long id, String username);
 
     void logout();
 
-    void registerAndLoginUser(UserRegistrationServiceModel userRegistrationServiceModel);
+    void registerUser(UserRegistrationServiceModel userRegistrationServiceModel);
+
+    UserLoginServiceModel findByUsernameAndPassword(String username, String password);
 }
