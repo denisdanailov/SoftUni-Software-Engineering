@@ -1,5 +1,5 @@
 
-[![Logo-Softuni](https://upload.wikimedia.org/wikipedia/commons/5/55/Software-University-Logo-blue-horizontal.png)](https://softuni.bg/)
+[![Logo-Softuni](https://raw.githubusercontent.com/denisdanailov/SoftUni-Software-Engineering/main/log-softuni.png)](https://softuni.bg/)
 
 ##  Certificates 
 
